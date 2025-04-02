@@ -74,14 +74,6 @@ export const homeStyles = StyleSheet.create({
         alignItems: 'center',
         alignSelf: 'flex-start',
     },
-    textOverColor: {
-        backgroundColor: appColors.green,
-        padding: 18,
-        borderRadius: 15,
-        alignItems: 'center',
-        alignSelf: 'flex-start',
-        color: appColors.black
-    },
     rowStylesText: {
         flexDirection: 'row',
         alignItems: 'center',
@@ -195,4 +187,34 @@ export const detailStyles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     }
-})
+});
+
+export const dialogstyles = StyleSheet.create({
+    overlay: {
+        flex: 1,
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    },
+    modalContainer: {
+        position: 'absolute',
+        bottom: 0,
+        width: '100%',
+        padding: 20,
+        borderTopLeftRadius: 15,
+        borderTopRightRadius: 15,
+        elevation: 5,
+        backgroundColor: appColors.white,
+        paddingVertical: 35
+    },
+    option: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        paddingVertical: 15,
+        borderBottomWidth: 1,
+        borderBottomColor: appColors.transparentGrey,
+    },
+    optionText: {
+        fontSize: 16,
+        color: 'black'
+    },
+});

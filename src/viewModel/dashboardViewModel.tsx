@@ -3,11 +3,15 @@ import { RootState } from "../redux/store";
 import { setDetails, setError, setLoading, setRepo } from "../redux/slice/dashboardSlice";
 import { addFavourite, removeFavourite } from "../redux/slice/favSlice";
 import { Alert, Platform, ToastAndroid } from "react-native";
+import { useContext } from "react";
+import { ThemeContext } from "../theme/AppContext";
 
 const DashboardViewModel = () => {
     const dispatch = useDispatch();
     const query = useSelector((state: RootState) => state.dashboard.query);
     const dets = useSelector((state: RootState) => state.dashboard.details);
+    const { isDarkTheme } = useContext(ThemeContext);
+    const { setIsDarkTheme } = useContext(ThemeContext);
     const showToast = (message: string) => {
         if (Platform.OS === 'android') {
             ToastAndroid.show(message, ToastAndroid.SHORT);
@@ -67,6 +71,10 @@ const DashboardViewModel = () => {
         }
         return num.toString();
     };
+    const toggleDarkMode = () => {
+        const newMode = !isDarkTheme;
+        setIsDarkTheme(newMode);
+    };
     const handleAddToFavs = (repo: any) => {
         dispatch(addFavourite(repo));
         showToast('🎉 Added To Favourites');
@@ -77,6 +85,6 @@ const DashboardViewModel = () => {
         showToast('Removed from Favourites');
     };
 
-    return { searchRepositories, formatNumber, repoDetails, handleAddToFavs, handleRemoveFromFavs }
+    return { searchRepositories, formatNumber, repoDetails, handleAddToFavs, handleRemoveFromFavs,toggleDarkMode }
 }
 export default DashboardViewModel;
