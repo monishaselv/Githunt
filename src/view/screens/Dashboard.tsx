@@ -63,7 +63,7 @@ export const DashboardScreen = () => {
                         placeholder={AppStrings.search}
                         value={query}
                         onChangeText={(text) => dispatch(setQuery(text))}
-                        style={{ flex: 0.8 }}
+                        style={{ flex: 0.8}}
                         onSubmitEditing={homeView.searchRepositories}
                     />
                 </View>

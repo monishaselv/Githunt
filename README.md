@@ -5,16 +5,10 @@ GitHunt
 This is a React Native application that allows users to search for GitHub repositories, view details, and favorite repositories for later access.
 
 📌 Features
-
-🔍 Search for GitHub repositories
-
-📌 Add repositories to favorites
-
-🌙 Dark mode support
-
-📡 Pagination for repository listing
-
-⚠️ Displays an alert when offline
+. Search for GitHub repositories
+. Add repositories to favorites
+. Dark mode support
+. Displays an alert when offline
 
 🛠️ Installation
 
@@ -38,21 +32,14 @@ yarn ios  # or npm run ios
 
 🏗️ Tech Stack
 
-React Native
-
-Redux Toolkit
-
-GitHub API
-
-Async Storage
+.React Native
+.Redux Toolkit
+.GitHub API
+.Async Storage
 
 📄 API Usage
 
 This app uses the GitHub Search API to fetch repository data.
 
-📜 License
-
-This project is licensed under the MIT License.
-
-👨‍💻 Made with ❤️ by [Your Name]
+👨‍💻 Made by Monisha
 
