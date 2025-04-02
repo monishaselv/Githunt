@@ -9,9 +9,13 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-GitHunt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-GitHunt.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		3778E794795945CE872244C0 /* DMSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A2B0FA3DC0D47F98E1CCAAB /* DMSans-Light.ttf */; };
 		5EED2BA48B791FAE0D9899C1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B139F1E6826E4D12AAE0F3F3 /* DMSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E90E179151E549ECAC4B07AA /* DMSans-SemiBold.ttf */; };
+		C1D8FC0D4E104010B974CD2A /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40D10064145F4B1394C0B394 /* DMSans-Regular.ttf */; };
+		E0D2BD1F076E4909AFC1A22B /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7FA72508D74420F929B2DA7 /* DMSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +24,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GitHunt/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = GitHunt/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-GitHunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHunt.debug.xcconfig"; path = "Target Support Files/Pods-GitHunt/Pods-GitHunt.debug.xcconfig"; sourceTree = "<group>"; };
+		40D10064145F4B1394C0B394 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Regular.ttf"; path = "../src/assets/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-GitHunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHunt.release.xcconfig"; path = "Target Support Files/Pods-GitHunt/Pods-GitHunt.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-GitHunt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHunt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GitHunt/AppDelegate.swift; sourceTree = "<group>"; };
+		7A2B0FA3DC0D47F98E1CCAAB /* DMSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Light.ttf"; path = "../src/assets/fonts/DMSans-Light.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GitHunt/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E90E179151E549ECAC4B07AA /* DMSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-SemiBold.ttf"; path = "../src/assets/fonts/DMSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F7FA72508D74420F929B2DA7 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Bold.ttf"; path = "../src/assets/fonts/DMSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		53FB4E7A9EDC4D75ADA8FF40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7FA72508D74420F929B2DA7 /* DMSans-Bold.ttf */,
+				7A2B0FA3DC0D47F98E1CCAAB /* DMSans-Light.ttf */,
+				40D10064145F4B1394C0B394 /* DMSans-Regular.ttf */,
+				E90E179151E549ECAC4B07AA /* DMSans-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +95,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				53FB4E7A9EDC4D75ADA8FF40 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +182,10 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				5EED2BA48B791FAE0D9899C1 /* PrivacyInfo.xcprivacy in Resources */,
+				E0D2BD1F076E4909AFC1A22B /* DMSans-Bold.ttf in Resources */,
+				3778E794795945CE872244C0 /* DMSans-Light.ttf in Resources */,
+				C1D8FC0D4E104010B974CD2A /* DMSans-Regular.ttf in Resources */,
+				B139F1E6826E4D12AAE0F3F3 /* DMSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7B3CR8V3M;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GitHunt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -288,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7B3CR8V3M;
 				INFOPLIST_FILE = GitHunt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
