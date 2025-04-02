@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 interface dashboardState {
-    fav: boolean;
     loading: boolean;
     error: string | null;
     repo: any[];
@@ -9,7 +8,6 @@ interface dashboardState {
     dialogVis: boolean;
 }
 const initialState: dashboardState = {
-    fav: false,
     loading: false,
     error: null,
     repo: [],
@@ -21,9 +19,6 @@ const dashboardSlice = createSlice({
     name: 'dashboard',
     initialState,
     reducers: {
-        setFav: (state, actions) => {
-            state.fav = actions.payload;
-        },
         setLoading: (state, actions) => {
             state.loading = actions.payload;
         },
@@ -44,5 +39,5 @@ const dashboardSlice = createSlice({
         }
     }
 })
-export const { setFav, setLoading, setError, setRepo, setQuery, setDetails, setDialogVis } = dashboardSlice.actions;
+export const { setLoading, setError, setRepo, setQuery, setDetails, setDialogVis } = dashboardSlice.actions;
 export default dashboardSlice.reducer;

@@ -14,5 +14,4 @@ export const AppStrings = {
     createdOn: 'Created on',
     lastUpdate: 'Last Updated on',
     removetoFavs: 'Remove from Favourites',
-
 }
